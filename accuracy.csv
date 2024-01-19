@@ -1,0 +1,2 @@
+,classifier,prediction,accuracy
+0,NB,MultinomialNB(),0.3442622950819672
