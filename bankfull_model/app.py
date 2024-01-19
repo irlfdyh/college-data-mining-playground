@@ -6,7 +6,7 @@ import pickle
 
 app = Flask(__name__)
 
-model_file = open('../model/mv_bank_full.pkl', 'rb')
+model_file = open('mv_bank_full.pkl', 'rb')
 model = pickle.load(model_file, encoding='bytes')
 
 
